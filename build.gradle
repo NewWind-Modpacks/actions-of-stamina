@@ -218,7 +218,7 @@ publishing {
     repositories {
         maven {
             name = "GithubPackages"
-            url = "https://maven.pkg.github.com/foreverealize/actions-of-stamina"
+            url = "https://maven.pkg.github.com/NewWind-Modpacks/actions-of-stamina"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
